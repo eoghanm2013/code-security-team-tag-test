@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Test repository to validate Code Security team tag behavior",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "lodash": "4.17.20"
   }
