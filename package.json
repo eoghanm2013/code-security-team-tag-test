@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node index.js"
   },
-  "dependencies": {}
+  "dependencies": {
+    "lodash": "4.17.20"
+  }
 }
 
