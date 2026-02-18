@@ -1,0 +1,14 @@
+# This file will be renamed to entity.datadog.yaml in Phase 2
+# Replace YOUR_GITHUB_ORG and YOUR_REPO_NAME with actual values
+
+apiVersion: v3
+kind: service
+metadata:
+  name: code-security-team-tag-test
+  owner: tee-team  # This is the team tag we'll test with
+datadog:
+  codeLocations:
+  - repositoryURL: https://github.com/YOUR_GITHUB_ORG/YOUR_REPO_NAME
+    paths:
+    - "**"
+
