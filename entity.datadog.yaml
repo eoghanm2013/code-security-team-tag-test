@@ -2,7 +2,6 @@ apiVersion: v3
 kind: service
 metadata:
   name: code-security-team-tag-test
-  owner: platform-team
 datadog:
   codeLocations:
     - repositoryURL: https://github.com/eoghanm2013/code-security-team-tag-test.git
@@ -12,4 +11,3 @@ spec:
   type: web
   languages:
     - javascript
-
